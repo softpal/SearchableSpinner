@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_search_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?android:attr/spinnerItemStyle"
+    android:ellipsize="marquee"
+    android:singleLine="true"
+    android:textAlignment="inherit"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:scrollHorizontally="true"
+    android:textSize="18sp"/>
