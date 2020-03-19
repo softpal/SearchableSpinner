@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorAccent">@color/secondaryColor</item>
-    </style>
-
     <style name="CustomAlertDialog" parent="Theme.MaterialComponents.DayNight">
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="strokeColor">@color/successColor</item>
     </style>
-
-    <style name="Widget.MaterialComponents.Button.OutlinedButton_AlertDialog" parent="Widget.MaterialComponents.Button.TextButton">
-    <item name="strokeColor">@color/successColor</item>
-        <item name="textAppearanceButton">?android:textColorPrimary</item>
-    </style>
-
+    
 </resources>
