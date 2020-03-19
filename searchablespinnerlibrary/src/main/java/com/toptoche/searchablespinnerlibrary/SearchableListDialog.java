@@ -88,7 +88,7 @@ public class SearchableListDialog extends DialogFragment implements SearchView.O
 		View rootView = inflater.inflate(R.layout.searchable_list_dialog,null);
 		setData(rootView);
 		
-		AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity(),R.style.CustomAlertDialog);
+		AlertDialog.Builder alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(getActivity(),R.style.CustomAlertDialog));
 		alertDialog.setView(rootView);
 		
 		String strPositiveButton = _strPositiveButtonText == null ? "CLOSE" : _strPositiveButtonText;
