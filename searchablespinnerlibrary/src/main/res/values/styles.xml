@@ -2,5 +2,12 @@
 <resources>
     <style name="CustomAlertDialog" parent="Theme.MaterialComponents.DayNight">
         <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="strokeColor">@color/successColor</item>
     </style>
+
+    <style name="Widget.MaterialComponents.Button.OutlinedButton_AlertDialog" parent="Widget.MaterialComponents.Button.TextButton">
+    <item name="strokeColor">@color/successColor</item>
+        <item name="textAppearanceButton">?android:textColorPrimary</item>
+    </style>
+
 </resources>
