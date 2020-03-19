@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -87,7 +88,7 @@ public class SearchableListDialog extends DialogFragment implements SearchView.O
 		View rootView = inflater.inflate(R.layout.searchable_list_dialog,null);
 		setData(rootView);
 		
-		AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+		AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity(),R.style.CustomAlertDialog);
 		alertDialog.setView(rootView);
 		
 		String strPositiveButton = _strPositiveButtonText == null ? "CLOSE" : _strPositiveButtonText;
@@ -98,7 +99,7 @@ public class SearchableListDialog extends DialogFragment implements SearchView.O
 		
 		final AlertDialog dialog = alertDialog.create();
 		dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        //dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.LTGRAY));
+       //dialog.getWindow().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.color_background)));
 		return dialog;
 	}
 	

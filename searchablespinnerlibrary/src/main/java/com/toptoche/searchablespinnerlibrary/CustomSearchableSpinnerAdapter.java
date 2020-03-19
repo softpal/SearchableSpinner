@@ -25,7 +25,7 @@ public class CustomSearchableSpinnerAdapter extends ArrayAdapter<DropDownItem> i
 {
 	private static final String TAG = CustomSearchableSpinnerAdapter.class.getSimpleName();
 	private final int mResource;
-	private Context mContext = null;
+	private transient Context mContext = null;
 	private List<DropDownItem> mFilteredList;
 	
 	/**
