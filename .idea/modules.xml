@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-SoftpalSearchableSpinner.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-SoftpalSearchableSpinner.iml" group="SoftpalSearchableSpinner" />
-      <module fileurl="file://$PROJECT_DIR$/SoftpalSearchableSpinner.iml" filepath="$PROJECT_DIR$/SoftpalSearchableSpinner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/SoftpalSearchableSpinner-sample.iml" filepath="$PROJECT_DIR$/sample/SoftpalSearchableSpinner-sample.iml" group="SoftpalSearchableSpinner/sample" />
-      <module fileurl="file://$PROJECT_DIR$/searchablespinnerlibrary/SoftpalSearchableSpinner-searchablespinnerlibrary.iml" filepath="$PROJECT_DIR$/searchablespinnerlibrary/SoftpalSearchableSpinner-searchablespinnerlibrary.iml" group="SoftpalSearchableSpinner/searchablespinnerlibrary" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/searchablespinnerlibrary/searchablespinnerlibrary.iml" filepath="$PROJECT_DIR$/searchablespinnerlibrary/searchablespinnerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.SoftpalSearchableSpinner.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects.SoftpalSearchableSpinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/SoftpalSearchableSpinner.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/SoftpalSearchableSpinner.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/searchablespinnerlibrary/SoftpalSearchableSpinner.searchablespinnerlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/searchablespinnerlibrary/SoftpalSearchableSpinner.searchablespinnerlibrary.iml" />
     </modules>
   </component>
 </project>
